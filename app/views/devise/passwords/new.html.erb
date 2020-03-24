@@ -1,0 +1,18 @@
+<div class="container">
+<h2>Forgot your password?</h2>
+
+<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+  <div style="color: red;"><%= render "devise/shared/error_messages", resource: resource %></div>
+
+  <div class="field" >
+    <%= f.label :email %><br/>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="actions">
+    <input type="submit" class="btn btn-danger" name="commit" value="Send me reset password instructions" data-disable-with="Send me reset password instructions">
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+</div>
