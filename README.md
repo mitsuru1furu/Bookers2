@@ -1,3 +1,8 @@
+#DMM WEBCAMPコンテンツ【アプリケーションを完成させよう】
+DMM WEBCAMPの学習コンテンツアプリケーションを完成させよう2の研修課題です。
+
+#使い方
+ファイルのため、PCのブラウザで実行できます。
 # README
 
 This README would normally document whatever steps are necessary to get the
